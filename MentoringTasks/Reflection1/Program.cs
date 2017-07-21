@@ -16,10 +16,12 @@ namespace Reflection1
             {
                 list.Add(i.ToString());
             }
+
             foreach (var item in list)
             {
                 Console.WriteLine(item);
             }
+
             Console.Read();
         }
 
